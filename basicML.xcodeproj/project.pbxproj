@@ -14,7 +14,6 @@
 		60A604E82AE3C84500149198 /* basicMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A604E72AE3C84500149198 /* basicMLTests.swift */; };
 		60A604F22AE3C84500149198 /* basicMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A604F12AE3C84500149198 /* basicMLUITests.swift */; };
 		60A604F42AE3C84500149198 /* basicMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A604F32AE3C84500149198 /* basicMLUITestsLaunchTests.swift */; };
-		60A605012AE3C91700149198 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 60A605002AE3C91700149198 /* MobileNetV2.mlmodel */; };
 		60A605042AE3C93400149198 /* ImageClassificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A605032AE3C93400149198 /* ImageClassificationModel.swift */; };
 		60A605062AE3D3CF00149198 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A605052AE3D3CF00149198 /* ImageView.swift */; };
 /* End PBXBuildFile section */
@@ -47,9 +46,9 @@
 		60A604ED2AE3C84500149198 /* basicMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basicMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A604F12AE3C84500149198 /* basicMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicMLUITests.swift; sourceTree = "<group>"; };
 		60A604F32AE3C84500149198 /* basicMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		60A605002AE3C91700149198 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		60A605032AE3C93400149198 /* ImageClassificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationModel.swift; sourceTree = "<group>"; };
 		60A605052AE3D3CF00149198 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		60A605092AE3F81000149198 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +103,7 @@
 				60A604D82AE3C84400149198 /* ContentView.swift */,
 				60A605052AE3D3CF00149198 /* ImageView.swift */,
 				60A605032AE3C93400149198 /* ImageClassificationModel.swift */,
-				60A605002AE3C91700149198 /* MobileNetV2.mlmodel */,
+				60A605092AE3F81000149198 /* MobileNetV2.mlmodel */,
 				60A604DA2AE3C84500149198 /* Assets.xcassets */,
 				60A604DC2AE3C84500149198 /* Preview Content */,
 			);
@@ -268,7 +267,6 @@
 			files = (
 				60A605062AE3D3CF00149198 /* ImageView.swift in Sources */,
 				60A605042AE3C93400149198 /* ImageClassificationModel.swift in Sources */,
-				60A605012AE3C91700149198 /* MobileNetV2.mlmodel in Sources */,
 				60A604D92AE3C84400149198 /* ContentView.swift in Sources */,
 				60A604D72AE3C84400149198 /* basicMLApp.swift in Sources */,
 			);
